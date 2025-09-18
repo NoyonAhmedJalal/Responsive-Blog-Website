@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+*{
+     font-family: "Urbanist", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color:#323946;
+    --main-color:#7cf03d;
+    --white-color:#fff;
+    --disabled-color:#fff3;
+    --Pinky-color:#f109f1ec;
+}
+
+.nav-link {
+  color: var(--bg-color);
+  transition: 0.3s ease; 
+}
+
+.nav-link:hover{
+    color: var(--Pinky-color);
+   
+}
+
+.nav-link.active {
+  color: var(--main-color) !important;
+  transform: scale(1.1);
+}
+
+
+.custom-header{
+  color: var(--bg-color);
+}
+
+
